@@ -3,6 +3,8 @@ package com.ds.array;
 public class MissingNumberExample {
 
     public static void main(String[] args) {
+
+        //Time Complexity O(2n) = O(n)
         int[] items = {1,2,3,4,5,7,8,9};
         int sum1 =0,sum2 =0;
         for(int i=0;i<items.length;i++)
