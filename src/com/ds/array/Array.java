@@ -19,7 +19,7 @@ public class Array {
     }
 
     public void insertAt(int index, int item){
-
+        
     }
 
     public int max(){
@@ -54,7 +54,7 @@ public class Array {
     }
 
     public void reverse(){
-        int newArray[] = new int[count];
+        int[] newArray = new int[count];
         int index = 0;
         for(int i=count-1;i>=0;i--)
             newArray[index++] = array[i];
